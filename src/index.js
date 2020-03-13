@@ -7,7 +7,7 @@ LOGIN = `
     }
 `;
 
-INDIVIDIAL_FEEDBACK = `
+INDIVIDUAL_FEEDBACK = `
     query IndividualFeedback {
         IndividualFeedback {
             id
