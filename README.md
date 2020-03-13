@@ -1,2 +1,2 @@
-# wegrow_graphql
+# WeGrow GraphQL
 Implementation of the GraphQL API for WeGrow

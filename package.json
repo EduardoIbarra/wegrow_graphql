@@ -24,5 +24,14 @@
   "bin": {
     "wegrow_graphql": "./bin/global.js"
   },
-  "preferGlobal": true
+  "preferGlobal": false,
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EduardoIbarra/wegrow_graphql.git"
+  },
+  "bugs": {
+    "url": "https://github.com/EduardoIbarra/wegrow_graphql/issues"
+  },
+  "homepage": "https://github.com/EduardoIbarra/wegrow_graphql#readme"
 }
