@@ -1,0 +1,28 @@
+{
+  "name": "wegrow_graphql",
+  "version": "1.0.1",
+  "description": "Implementation of the GraphQL API for WeGrow",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src/ --fix"
+  },
+  "keywords": [
+    "wegrow",
+    "graphql",
+    "api",
+    "implementation",
+    "package"
+  ],
+  "author": "Eduardo de la Cruz <hugo.delacruz@neoris.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.1"
+  },
+  "bin": {
+    "wegrow_graphql": "./bin/global.js"
+  },
+  "preferGlobal": true
+}
