@@ -54,9 +54,16 @@ HARD_SKILLS_QUERY = `
   }
 `;
 
+RESET_PASSWORD = `
+    mutation resetPassword($email: String!) {
+        resetPassword(email: $email)
+    }
+`;
+
 module.exports = {
   LOGIN,
   INDIVIDUAL_FEEDBACK,
   SOFT_SKILLS_QUERY,
-  HARD_SKILLS_QUERY
+  HARD_SKILLS_QUERY,
+  RESET_PASSWORD
 };
