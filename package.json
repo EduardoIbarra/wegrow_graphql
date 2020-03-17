@@ -1,6 +1,6 @@
 {
   "name": "wegrow_graphql",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Implementation of the GraphQL API for WeGrow",
   "main": "src/index.js",
   "scripts": {
