@@ -1,4 +1,4 @@
-LOGIN = `
+const LOGIN = `
     mutation Login($email: String!, $password: String!) {
         login(email: $email, password: $password) {
             refreshToken
@@ -7,7 +7,7 @@ LOGIN = `
     }
 `;
 
-INDIVIDUAL_FEEDBACK = `
+const INDIVIDUAL_FEEDBACK = `
     query IndividualFeedback {
         IndividualFeedback {
             id
@@ -34,7 +34,7 @@ INDIVIDUAL_FEEDBACK = `
     }
 `;
 
-SOFT_SKILLS_QUERY = `
+const SOFT_SKILLS_QUERY = `
   query SoftSkills {
     SoftSkill {
       id
@@ -44,7 +44,7 @@ SOFT_SKILLS_QUERY = `
   }
 `;
 
-HARD_SKILLS_QUERY = `
+const HARD_SKILLS_QUERY = `
   query HardSkills {
     HardSkill {
       id
@@ -54,7 +54,7 @@ HARD_SKILLS_QUERY = `
   }
 `;
 
-RESET_PASSWORD = `
+const RESET_PASSWORD = `
     mutation resetPassword($email: String!) {
         resetPassword(email: $email)
     }
